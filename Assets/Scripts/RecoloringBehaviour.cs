@@ -20,7 +20,7 @@ public class RecoloringBehaviour : MonoBehaviour
         _renderer = GetComponent<Renderer>();
         GenerateNextColor();
     }
-    void Update()
+    private void Update()
     {
        
         _recoloringTime += Time.deltaTime;
